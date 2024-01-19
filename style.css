@@ -18,13 +18,15 @@ body {
     display: flex;
     margin: 1;
     padding-left: 0;
+    padding-bottom: 40px;
     border: 0;
     height: 70px;
     flex-direction: row;
     width: 100%;
     position: fixed;
     top: 0;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 150px;
     background-color: #1F2937;
     color: white;
     
@@ -32,9 +34,8 @@ body {
 
 .logo {
     display: flex;
-    font-size: larger;
+    font-size: 24px;
     align-items: center;
-    padding-left: 16px;
 
 }
 .header-links {
@@ -49,27 +50,101 @@ ul {
 }
 a {
     text-decoration: none;
-    font-size: 20px;
-    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
     padding-right: 16px;
 }
 .under-head {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    background-color: #265aa2;
+    gap: 40px;
+    background-color: #1F2937;
     color: white;
-    height: 300px;
-    padding-left: 16px;
+    height: 400px;
+}
+.left-content {
+    display: flex;
+    flex-direction: column;
+}
+.right-content {
+    display: flex;
+    
 }
 .main-title, p {
     display: flex;
     color: rgb(255, 255, 255);
     width: 300px;
+    margin-bottom: 10px;
 
 }
 .main-title {
     font-size: 48px;
     font-weight: bold;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+  
+    width: 400px; height: auto;
+
+}
+
+button.sign-up-head {
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    background-color: #589eff;
+    width: 150px; height: 30px;
+    margin-top: 10px;
+}
+
+.section-three {
+    display: flex;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+}
+.round-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.section-three-text, .text-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+.text-1 {
+    display: flex;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    
 }
